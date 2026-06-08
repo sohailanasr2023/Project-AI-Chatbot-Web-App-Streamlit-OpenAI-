@@ -50,14 +50,17 @@ client = OpenAI(api_key="YOUR_API_KEY")
 streamlit run app.py
 
 Then open:
-
 http://localhost:8501
+
 📁 Project Structure
 ai-chatbot-webapp/
 │
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+
+
 💡 How it works
 User types a message in the chat box
 Message is sent to OpenAI API
